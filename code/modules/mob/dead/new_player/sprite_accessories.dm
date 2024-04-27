@@ -413,7 +413,7 @@
 	specuse = list("human", "elf", "tiefling")
 
 /datum/sprite_accessory/facial_hair/hermit
-	name = "Wise Hermit"
+	name = "Jewish"
 	icon_state = "facial_moonshiner"
 	gender = MALE
 	specuse = list("human", "elf")

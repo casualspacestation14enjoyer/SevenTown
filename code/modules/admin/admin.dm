@@ -446,6 +446,21 @@
 //i.e. buttons/verbs
 
 
+/datum/admins/proc/debugshittime()
+	set category = "Server"
+	set name = "Toggle Debug Fuck Roles"
+	set desc = "smoking that pack"
+
+	if(!usr.client.holder)
+		return
+
+	if(GLOB.debug_shit == TRUE)
+		GLOB.debug_shit = FALSE
+		to_chat(usr, "debug shit set to FALSE")
+	else
+		GLOB.debug_shit = TRUE
+		to_chat(usr, "debug shit set to TRUE")
+
 /datum/admins/proc/restart()
 	set category = "Server"
 	set name = "Reboot World"

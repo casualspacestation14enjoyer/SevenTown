@@ -26,19 +26,18 @@
 #define ITEM_SLOT_HEAD			(1<<8)
 #define ITEM_SLOT_CLOAK			(1<<9)
 #define ITEM_SLOT_NECK			(1<<10)
-#define ITEM_SLOT_MASK			(1<<11)
-#define ITEM_SLOT_HANDS			(1<<12)
-#define ITEM_SLOT_BELT			(1<<13)
-#define ITEM_SLOT_BACK_R		(1<<14)
-#define ITEM_SLOT_BACK_L		(1<<15)
-#define ITEM_SLOT_INBACK		(1<<16)
-#define ITEM_SLOT_HIP			(1<<17)
-#define ITEM_SLOT_WRISTS		(1<<18)
-#define ITEM_SLOT_OCLOTHING		(1<<19)
-#define ITEM_SLOT_ICLOTHING		(1<<20)
-#define ITEM_SLOT_POCKET		(1<<21) // this is to allow items with a w_class of WEIGHT_CLASS_NORMAL or WEIGHT_CLASS_BULKY to fit in pockets.
-#define ITEM_SLOT_DENYPOCKET	(1<<22) // this is to deny items with a w_class of WEIGHT_CLASS_SMALL or WEIGHT_CLASS_TINY to fit in pockets.
-#define ITEM_SLOT_BACKPACK		(1<<23)
+#define ITEM_SLOT_HANDS			(1<<11)
+#define ITEM_SLOT_BELT			(1<<12)
+#define ITEM_SLOT_BACK_R		(1<<13)
+#define ITEM_SLOT_BACK_L		(1<<14)
+#define ITEM_SLOT_INBACK		(1<<15)
+#define ITEM_SLOT_HIP			(1<<16)
+#define ITEM_SLOT_WRISTS		(1<<17)
+#define ITEM_SLOT_OCLOTHING		(1<<18)
+#define ITEM_SLOT_ICLOTHING		(1<<19)
+#define ITEM_SLOT_POCKET		(1<<20) // this is to allow items with a w_class of WEIGHT_CLASS_NORMAL or WEIGHT_CLASS_BULKY to fit in pockets.
+#define ITEM_SLOT_DENYPOCKET	(1<<21) // this is to deny items with a w_class of WEIGHT_CLASS_SMALL or WEIGHT_CLASS_TINY to fit in pockets.
+#define ITEM_SLOT_BACKPACK		(1<<22)
 
 #define ITEM_SLOT_BACK			ITEM_SLOT_BACK_L | ITEM_SLOT_BACK_R
 

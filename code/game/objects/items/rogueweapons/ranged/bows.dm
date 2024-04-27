@@ -88,6 +88,27 @@
 	max_ammo = 1
 	start_empty = TRUE
 
+/obj/item/ammo_box/magazine/internal/shot/matchlock
+	ammo_type = /obj/item/ammo_casing/caseless/rogue/bullet
+	caliber = "musketball"
+	max_ammo = 1
+	start_empty = TRUE
+
+/datum/intent/shoot/matchlock
+	chargetime = 1.5
+	chargedrain = 2.3
+	charging_slowdown = 4
+
+/datum/intent/shoot/matchlock/can_charge()
+	if(mastermob)
+		if(mastermob.get_inactive_held_item())
+			return FALSE
+	return TRUE
+
+/datum/intent/shoot/matchlock/prewarning()
+	if(mastermob)
+		mastermob.visible_message("<span class='warning'>[mastermob] aims the [masteritem]!</span>")
+
 /datum/intent/shoot/bow
 	chargetime = 1
 	chargedrain = 2

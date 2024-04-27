@@ -137,6 +137,7 @@ GLOBAL_PROTECT(admin_verbs_server)
 	/datum/admins/proc/forcemode,
 	/datum/admins/proc/restart,
 	/datum/admins/proc/end_round,
+	/datum/admins/proc/debugshittime,
 	/datum/admins/proc/delay,
 	/datum/admins/proc/toggleaban,
 	/client/proc/everyone_random,

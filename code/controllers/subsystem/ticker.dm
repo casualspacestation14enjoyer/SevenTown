@@ -1,5 +1,6 @@
 #define ROUND_START_MUSIC_LIST "strings/round_start_sounds.txt"
 
+GLOBAL_VAR_INIT(debug_shit, FALSE)
 
 GLOBAL_VAR_INIT(round_timer, INITIAL_ROUND_TIMER)
 
@@ -269,6 +270,9 @@ SUBSYSTEM_DEF(ticker)
 /datum/controller/subsystem/ticker/proc/checkreqroles()
 	var/list/readied_jobs = list()
 	var/list/required_jobs = list("Queen","King","Merchant")
+	if(GLOB.debug_shit)
+		required_jobs = list()
+		readied_jobs = list("Merchant", "King")
 #ifdef DEPLOY_TEST
 	required_jobs = list()
 	readied_jobs = list("Merchant", "King")
@@ -300,7 +304,7 @@ SUBSYSTEM_DEF(ticker)
 	else
 		var/list/stuffy = list("Set Merchant to 'high' in your class preferences to start the game!", "PLAY Merchant NOW!", "A Merchant is required to start.", "Pray for a Merchant.", "One day, there will be a Merchant.", "Just try playing Merchant.", "If you don't play Merchant, the game will never start.", "We need at least one Merchant to start the game.", "We're waiting for you to pick Merchant to start.", "Still no Merchant is readied..", "I'm going to lose my mind if we don't get a Merchant readied up.","No. The game will not start because there is no Merchant.","What's the point of ROGUETOWN without a Merchant?")
 		to_chat(world, "<span class='purple'>[pick(stuffy)]</span>")
-		return FALSE			
+		return FALSE		
 
 #ifdef DEPLOY_TEST
 	var/amt_ready = 999
@@ -311,6 +315,9 @@ SUBSYSTEM_DEF(ticker)
 #ifdef ROGUEWORLD
 	amt_ready = 999
 #endif
+
+	if(GLOB.debug_shit)
+		amt_ready = 999
 
 	for(var/mob/dead/new_player/player in GLOB.player_list)
 		if(!player)

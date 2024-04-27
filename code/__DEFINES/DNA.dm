@@ -105,7 +105,7 @@
 
 //species traits for mutantraces
 #define MUTCOLORS		1
-#define HAIR			2
+//#define HAIR			2
 #define FACEHAIR		3
 #define EYECOLOR		4
 #define LIPS			5
