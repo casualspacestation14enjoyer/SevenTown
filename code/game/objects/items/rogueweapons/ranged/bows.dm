@@ -94,6 +94,12 @@
 	max_ammo = 1
 	start_empty = TRUE
 
+/obj/item/ammo_box/magazine/internal/shot/matchlock/blunder
+	ammo_type = /obj/item/ammo_casing/caseless/rogue/bullet/blunder
+	caliber = "musketball"
+	max_ammo = 1
+	start_empty = TRUE
+
 /datum/intent/shoot/matchlock
 	chargetime = 1.5
 	chargedrain = 2.3

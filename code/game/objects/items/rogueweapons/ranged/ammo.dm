@@ -79,3 +79,14 @@
 	dropshrink = 0.5
 	possible_item_intents = list(/datum/intent/use)
 	max_integrity = 0
+
+/obj/item/ammo_casing/caseless/rogue/bullet/blunder
+	name = "pouch of lead balls"
+	desc = ""
+	projectile_type = /obj/projectile/bullet/bullet/blunder
+	icon_state = "pouch"
+	variance = 15
+	pellets = 5
+
+/obj/projectile/bullet/bullet/blunder
+	damage = 69
