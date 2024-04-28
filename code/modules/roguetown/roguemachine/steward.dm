@@ -6,7 +6,7 @@
 #define TAB_LOG 6
 
 /obj/structure/roguemachine/steward
-	name = "nerve master"
+	name = "GOLD MANAGER"
 	desc = ""
 	icon = 'icons/roguetown/misc/machines.dmi'
 	icon_state = "steward_machine"

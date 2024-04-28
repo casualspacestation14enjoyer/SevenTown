@@ -20,6 +20,11 @@
 	associated_skill = /datum/skill/combat/crossbows
 	recoil = 8
 
+/obj/item/gun/ballistic/revolver/grenadelauncher/flintlock/royal
+	name = "royal flinty"
+	desc = "It is gold encrusted."
+	icon_state = "pistol2"
+
 /obj/item/gun/ballistic/revolver/grenadelauncher/flintlock/blunder
 	name = "blunder weapon"
 	desc = "A strange derivation from the original design, this one sports a large barrel to hold a pouch of multiple lead balls in it. Shooting many projectiles at once."
