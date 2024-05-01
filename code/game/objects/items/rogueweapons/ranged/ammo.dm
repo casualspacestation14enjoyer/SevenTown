@@ -92,6 +92,10 @@
 	name = "pouch of lead balls"
 	icon = 'icons/roguetown/weapons/ammo.dmi'
 	icon_state = "pouch"
+	w_class = WEIGHT_CLASS_TINY
+	dropshrink = 0
+	throwforce = 0
+	slot_flags = ITEM_SLOT_HIP|ITEM_SLOT_NECK|ITEM_SLOT_MOUTH|ITEM_SLOT_WRISTS
 
 /obj/item/ammopouch/attack_right(mob/user)
 	. = ..()

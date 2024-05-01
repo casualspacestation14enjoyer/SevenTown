@@ -68,12 +68,15 @@
 			var/mob/living/carbon/human/H = user
 			if(H.marriedto == real_name)
 				. += "<span class='love'>It's my spouse.</span>"
+			if(affiliation != H.affiliation)
+				. += "<span class='userdanger'>ENEMY! KILL THEM!</span>"
 
 		if(real_name in GLOB.excommunicated_players)
 			. += "<span class='userdanger'>HERETIC! SHAME!</span>"
 
 		if(real_name in GLOB.outlawed_players)
 			. += "<span class='userdanger'>OUTLAW!</span>"
+
 		if(mind && mind.special_role)
 		else
 			if(mind && mind.special_role == "Bandit")

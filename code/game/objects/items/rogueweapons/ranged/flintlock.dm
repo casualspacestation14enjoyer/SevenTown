@@ -28,10 +28,10 @@
 /obj/item/gun/ballistic/revolver/grenadelauncher/flintlock/musket
 	name = "musk weapon"
 	desc = ""
-	icon = 'icons/roguetown/weapons/64.dmi'
-	icon_state = "longgun_0"
-	dropshrink = 0.5
+	icon_state = "musket"
+	can_bayonet = TRUE
 	slot_flags = ITEM_SLOT_BACK
+	fire_sound = 'sound/combat/Ranged/muskShot.ogg'
 
 /obj/item/gun/ballistic/revolver/grenadelauncher/flintlock/royal
 	name = "royal flinty"
