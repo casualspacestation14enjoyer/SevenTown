@@ -40,7 +40,6 @@
 	
 /obj/item/gun/ballistic/revolver/grenadelauncher/flintlock/blunder/shoot_live_shot(mob/living/user, pointblank, mob/pbtarget, message)
 	var/mob/living/carbon/human/H = user
-	var/mob/living/carbon/human/target = pbtarget
 	new /obj/effect/particle_effect/smoke/musket(get_turf(H))
 	playsound(user, fire_sound, fire_sound_volume, vary_fire_sound)
 
