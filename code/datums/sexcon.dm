@@ -203,6 +203,7 @@
 
 /mob/living/carbon/human
 	var/virginity = FALSE
+	var/affiliation = null
 
 /mob/living/carbon/human/proc/on_virgin_loss()
 	virginity = FALSE

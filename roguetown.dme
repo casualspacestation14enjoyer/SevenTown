@@ -2084,6 +2084,8 @@
 #include "code\modules\jobs\job_types\old\station_engineer.dm"
 #include "code\modules\jobs\job_types\old\virologist.dm"
 #include "code\modules\jobs\job_types\old\warden.dm"
+#include "code\modules\jobs\job_types\roguetown\musketfare.dm"
+#include "code\modules\jobs\job_types\roguetown\musketfare_outfits.dm"
 #include "code\modules\jobs\job_types\roguetown\roguetown.dm"
 #include "code\modules\jobs\job_types\roguetown\statueitems.dm"
 #include "code\modules\jobs\job_types\roguetown\adventurer\adventurer.dm"

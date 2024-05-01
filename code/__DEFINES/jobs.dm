@@ -122,6 +122,9 @@
 #define TAILOR		(1<<5)
 #define MERCHANT	(1<<6)
 #define SCRIBE		(1<<7)
+#define SOLDIER		(1<<8)
+#define BLUCAPTAIN	(1<<9)
+#define REDCAPTAIN	(1<<10)
 
 #define PEASANTS		(1<<4)
 
@@ -151,6 +154,12 @@
 #define JCOLOR_SOLDIER "#b64949"
 #define JCOLOR_SERF "#669968"
 #define JCOLOR_PEASANT "#936d6c"
+
+#define JCOLOR_CAPR "#c52828"
+#define JCOLOR_CAPB "#382eb8"
+
+#define JCOLOR_RED "#b64949"
+#define JCOLOR_BLU "#443e9e"
 
 
 // job display orders //

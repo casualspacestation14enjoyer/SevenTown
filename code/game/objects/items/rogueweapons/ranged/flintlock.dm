@@ -4,7 +4,7 @@
 	icon = 'icons/roguetown/weapons/32.dmi'
 	icon_state = "pistol"
 	item_state = "matchlock"
-	possible_item_intents = list(/datum/intent/shoot/matchlock, INTENT_GENERIC)
+	possible_item_intents = list(/datum/intent/shoot/matchlock, /datum/intent/arc, INTENT_GENERIC)
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/matchlock
 	fire_sound = 'sound/combat/Ranged/firebow-shot-01.ogg'
 	slot_flags = ITEM_SLOT_HIP
@@ -19,6 +19,19 @@
 	load_sound = 'sound/foley/struggle.ogg'
 	associated_skill = /datum/skill/combat/crossbows
 	recoil = 8
+
+/obj/item/gun/ballistic/revolver/grenadelauncher/flintlock/examine(mob/user)
+	. = ..()
+	if(!chambered)
+		to_chat(user, "It is EMPTY.")
+
+/obj/item/gun/ballistic/revolver/grenadelauncher/flintlock/musket
+	name = "musk weapon"
+	desc = ""
+	icon = 'icons/roguetown/weapons/64.dmi'
+	icon_state = "longgun_0"
+	dropshrink = 50
+	slot_flags = ITEM_SLOT_BACK
 
 /obj/item/gun/ballistic/revolver/grenadelauncher/flintlock/royal
 	name = "royal flinty"

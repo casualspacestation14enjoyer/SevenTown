@@ -14,8 +14,6 @@
 	///Used for admin AI interaction
 	var/AI_Interact = FALSE
 
-	var/warfare_faction = null
-
  	///Used to cache this client's bans to save on DB queries
 	var/ban_cache = null
  	///Contains the last message sent by this client - used to protect against copy-paste spamming.

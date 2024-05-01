@@ -34,7 +34,7 @@
 		if(get_detail_color())
 			pic.color = get_detail_color()
 		add_overlay(pic)
-
+/*
 /obj/item/clothing/cloak/tabard/attack_right(mob/user)
 	if(picked)
 		return
@@ -79,6 +79,7 @@
 	if(ismob(loc))
 		var/mob/L = loc
 		L.update_inv_cloak()
+*/
 
 /obj/item/clothing/cloak/tabard/knight
 	color = CLOTHING_PURPLE
@@ -215,6 +216,15 @@
 	detail_tag = "_spl"
 	detail_color = CLOTHING_PURPLE
 
+/obj/item/clothing/cloak/stabard/guard/red
+	color = CLOTHING_RED
+	detail_color = JCOLOR_RED
+
+/obj/item/clothing/cloak/stabard/guard/blu
+	color = CLOTHING_BLUE
+	detail_color = JCOLOR_BLU
+
+/*
 /obj/item/clothing/cloak/stabard/guard/attack_right(mob/user)
 	if(picked)
 		return
@@ -238,6 +248,7 @@
 	if(ismob(loc))
 		var/mob/L = loc
 		L.update_inv_cloak()
+*/
 
 /obj/item/clothing/cloak/stabard/guard/Initialize()
 	..()

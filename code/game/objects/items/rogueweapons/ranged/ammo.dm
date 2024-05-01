@@ -56,7 +56,7 @@
 
 /obj/projectile/bullet/bullet
 	name = "lead ball"
-	damage = 85
+	damage = 215
 	damage_type = BRUTE
 	icon = 'icons/roguetown/weapons/ammo.dmi'
 	icon_state = "musketball_proj"
@@ -87,6 +87,16 @@
 	icon_state = "pouch"
 	variance = 15
 	pellets = 5
+
+/obj/item/ammopouch
+	name = "pouch of lead balls"
+	icon = 'icons/roguetown/weapons/ammo.dmi'
+	icon_state = "pouch"
+
+/obj/item/ammopouch/attack_right(mob/user)
+	. = ..()
+	var/obj/item/ammo_casing/caseless/rogue/bullet/K = new
+	user.put_in_active_hand(K)
 
 /obj/projectile/bullet/bullet/blunder
 	damage = 69
