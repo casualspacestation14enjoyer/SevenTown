@@ -1,13 +1,14 @@
 /datum/outfit/job/roguetown/soldier/red/pre_equip(mob/living/carbon/human/H, visualsOnly)
 	. = ..()
 	pants = /obj/item/clothing/under/roguetown/trou/leather
+	head = /obj/item/clothing/head/roguetown/helmet/kettle
 	cloak = /obj/item/clothing/cloak/stabard/guard/red
 	shirt = /obj/item/clothing/suit/roguetown/shirt/shortshirt/merc
 	armor = /obj/item/clothing/suit/roguetown/armor/chainmail
 	neck = /obj/item/clothing/neck/roguetown/gorget
 	shoes = /obj/item/clothing/shoes/roguetown/boots
-	beltl = /obj/item/ammopouch
 	belt = /obj/item/storage/belt/rogue/leather
+	beltl = /obj/item/ammopouch
 	beltr = /obj/item/rogueweapon/sword
 	backr = /obj/item/gun/ballistic/revolver/grenadelauncher/flintlock/musket
 	wrists = /obj/item/clothing/wrists/roguetown/bracers/leather
@@ -37,13 +38,14 @@
 /datum/outfit/job/roguetown/soldier/blue/pre_equip(mob/living/carbon/human/H, visualsOnly)
 	. = ..()
 	pants = /obj/item/clothing/under/roguetown/trou/leather
-	cloak = /obj/item/clothing/cloak/stabard/guard/red
+	head = /obj/item/clothing/head/roguetown/helmet/kettle
+	cloak = /obj/item/clothing/cloak/stabard/guard/blu
 	shirt = /obj/item/clothing/suit/roguetown/shirt/shortshirt/merc
 	armor = /obj/item/clothing/suit/roguetown/armor/chainmail
 	neck = /obj/item/clothing/neck/roguetown/gorget
 	shoes = /obj/item/clothing/shoes/roguetown/boots
-	beltl = /obj/item/ammopouch
 	belt = /obj/item/storage/belt/rogue/leather
+	beltl = /obj/item/ammopouch
 	beltr = /obj/item/rogueweapon/sword
 	backr = /obj/item/gun/ballistic/revolver/grenadelauncher/flintlock/musket
 	wrists = /obj/item/clothing/wrists/roguetown/bracers/leather

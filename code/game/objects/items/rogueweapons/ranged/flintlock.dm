@@ -30,7 +30,7 @@
 	desc = ""
 	icon = 'icons/roguetown/weapons/64.dmi'
 	icon_state = "longgun_0"
-	dropshrink = 50
+	dropshrink = 0.5
 	slot_flags = ITEM_SLOT_BACK
 
 /obj/item/gun/ballistic/revolver/grenadelauncher/flintlock/royal
