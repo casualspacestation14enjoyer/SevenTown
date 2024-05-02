@@ -331,8 +331,12 @@
 	if(end_reason)
 		to_chat(world, "<span class='big bold'>[end_reason].</span>")
 	else
-		to_chat(world, "<span class='big bold'>Praise be! The [whoWon] have won this conflict.</span>")
-		to_chat(world, "<span class='bold'>Glory to the Throne Holder: [newLord]</span>")
+		if(whoWon && newLord)
+			to_chat(world, "<span class='big bold'>Praise be! The [whoWon] have won this conflict.</span>")
+			to_chat(world, "<span class='bold'>Glory to the Throne Holder: [newLord]</span>")
+		else
+			to_chat(world, "<span class='big bold'>Stalemate! No one won this battle, the war rages another dae.</span>")
+			to_chat(world, "<span class='bold'>Shame to all of you! (Especially the leaders...)</span>")
 
 /datum/controller/subsystem/ticker/proc/gamemode_report()
 	var/list/all_teams = list()

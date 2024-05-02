@@ -84,6 +84,34 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 #endif
 	return INITIALIZE_HINT_QDEL
 
+/obj/effect/landmark/start/bluecap
+	name = "Corvani Captain"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/redcap
+	name = "Heartfelt Lord"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/bluesoldier
+	name = "Corvani Soldier"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/redsoldier
+	name = "Heartfelt Soldier"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/bluesoldierlate
+	name = "Corvani Soldierlate"
+	icon_state = "arrow"
+	jobspawn_override = list("Corvani Soldier")
+	delete_after_roundstart = FALSE
+
+/obj/effect/landmark/start/redsoldierlate
+	name = "Heartfelt Soldierlate"
+	icon_state = "arrow"
+	jobspawn_override = list("Heartfelt Soldier")
+	delete_after_roundstart = FALSE
+
 /obj/effect/landmark/start/adventurerlate
 	name = "Adventurerlate"
 	icon_state = "arrow"

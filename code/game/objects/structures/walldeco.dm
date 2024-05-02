@@ -69,6 +69,16 @@
 	desc = ""
 	icon_state = "sparrow"
 
+/obj/structure/fluff/walldeco/sparrowflag/heartfelt
+	name = "flag of heartfelt"
+	desc = ""
+	icon_state = "sparrow"
+
+/obj/structure/fluff/walldeco/sparrowflag/corvan
+	name = "flag of corvana"
+	desc = ""
+	icon_state = "corvan"
+
 /obj/structure/fluff/walldeco/xavo
 	name = "xavo flag"
 	desc = ""

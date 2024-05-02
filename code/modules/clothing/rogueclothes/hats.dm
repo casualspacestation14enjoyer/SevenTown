@@ -244,6 +244,10 @@
 	sellprice = 1000
 	resistance_flags = FIRE_PROOF
 
+/obj/item/clothing/head/roguetown/crown/redcrown/Initialize()
+	. = ..()
+	SSroguemachine.redcrown = src
+
 /obj/item/clothing/head/roguetown/crown/blucrown
 	name = "crown of Corvana"
 	icon_state = "bcrown"
@@ -253,6 +257,10 @@
 	dynamic_hair_suffix = null
 	sellprice = 1000
 	resistance_flags = FIRE_PROOF
+
+/obj/item/clothing/head/roguetown/crown/blucrown/Initialize()
+	. = ..()
+	SSroguemachine.blucrown = src
 
 /obj/item/clothing/head/roguetown/crown/serpcrown
 	name = "crown of rockhill"

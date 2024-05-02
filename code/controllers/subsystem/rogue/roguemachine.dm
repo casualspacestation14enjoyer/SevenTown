@@ -13,6 +13,9 @@ PROCESSING_SUBSYSTEM_DEF(roguemachine)
 	var/last_death_report
 	var/obj/item/crown
 
+	var/obj/item/redcrown
+	var/obj/item/blucrown
+
 /datum/controller/subsystem/processing/roguemachine/fire(resumed = 0)
 	. = ..()
 	if(death_queue.len)
