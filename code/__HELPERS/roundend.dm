@@ -199,7 +199,7 @@
 
 	log_game("The round has ended.")
 
-	to_chat(world, "<BR><BR><BR><span class='reallybig'>So ends this tale of Roguetown.</span>")
+	to_chat(world, "<BR><BR><BR><span class='reallybig'>War. War never changes.</span>")
 	get_end_reason()
 
 #ifndef TESTSERVER
@@ -331,7 +331,8 @@
 	if(end_reason)
 		to_chat(world, "<span class='big bold'>[end_reason].</span>")
 	else
-		to_chat(world, "<span class='big bold'>The town has managed to survive another week.</span>")
+		to_chat(world, "<span class='big bold'>Praise be! The [whoWon] have won this conflict.</span>")
+		to_chat(world, "<span class='bold'>Glory to the Throne Holder: [newLord]</span>")
 
 /datum/controller/subsystem/ticker/proc/gamemode_report()
 	var/list/all_teams = list()

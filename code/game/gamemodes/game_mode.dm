@@ -218,6 +218,8 @@
 		return TRUE
 	if(station_was_nuked)
 		return TRUE
+	if(SSticker.whoWon)
+		return TRUE
 	var/list/continuous = CONFIG_GET(keyed_list/continuous)
 	var/list/midround_antag = CONFIG_GET(keyed_list/midround_antag)
 	if(!round_converted && (!continuous[config_tag] || (continuous[config_tag] && midround_antag[config_tag]))) //Non-continuous or continous with replacement antags

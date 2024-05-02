@@ -18,6 +18,9 @@ SUBSYSTEM_DEF(ticker)
 	var/start_immediately = FALSE
 	var/setup_done = FALSE //All game setup done including mode post setup and
 
+	var/whoWon = null
+	var/newLord = ""
+
 	var/hide_mode = 0
 	var/datum/game_mode/mode = null
 

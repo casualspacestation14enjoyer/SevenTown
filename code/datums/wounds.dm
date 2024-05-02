@@ -210,7 +210,7 @@
 /datum/wound/artery/throat
 	name = "sliced throat"
 	mob_overlay = "s1_throat"
-	bleed_rate = 50
+	bleed_rate = 100
 
 /datum/wound/stab
 	name = "puncture wound"

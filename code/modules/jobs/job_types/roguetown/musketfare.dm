@@ -28,9 +28,10 @@
 // RED: Heartfelts
 
 /datum/job/roguetown/warfare/red/captain
-	title = "Heartfelt Captain"
+	title = "Heartfelt Lord"
 	selection_color = JCOLOR_CAPR
 	flag = REDCAPTAIN
+	outfit = /datum/outfit/job/roguetown/captain/red
 	department_flag = SERFS
 	faction = "Station"
 	total_positions = 1
@@ -38,6 +39,13 @@
 	allowed_races = list("Humen",
 	"Humen")
 	allowed_sexes = list(MALE)
+
+/datum/job/roguetown/warfare/red/captain/after_spawn(mob/living/H, mob/M, latejoin)
+	. = ..()
+	if(H)
+		for(var/mob/living/carbon/human/RED in world)
+			if(RED.affiliation == BLUETEAM)
+				to_chat(RED, "<b><span class='notice'><span class='big'>[H.real_name] is your Lord.</span></span></b>")
 
 /datum/job/roguetown/warfare/red/soldier
 	title = "Heartfelt Soldier"
@@ -46,15 +54,10 @@
 	outfit = /datum/outfit/job/roguetown/soldier/red
 	department_flag = SERFS
 	faction = "Station"
-	total_positions = 9999
+	total_positions = 50
 	spawn_positions = 10
 	allowed_races = list("Humen",
-	"Humen",
-	"Elf",
-	"Dwarf",
-	"Tiefling",
-	"Aasimar"
-	)
+	"Humen")
 
 // BLUE: CORVANI
 
@@ -62,6 +65,7 @@
 	title = "Corvani Captain"
 	selection_color = JCOLOR_CAPB
 	flag = BLUCAPTAIN
+	outfit = /datum/outfit/job/roguetown/captain/blue
 	department_flag = SERFS
 	faction = "Station"
 	total_positions = 1
@@ -69,6 +73,13 @@
 	allowed_races = list("Humen",
 	"Humen")
 	allowed_sexes = list(MALE)
+
+/datum/job/roguetown/warfare/blue/captain/after_spawn(mob/living/H, mob/M, latejoin)
+	. = ..()
+	if(H)
+		for(var/mob/living/carbon/human/BLU in world)
+			if(BLU.affiliation == BLUETEAM)
+				to_chat(BLU, "<b><span class='notice'><span class='big'>[H.real_name] is your leader.</span></span></b>")
 
 /datum/job/roguetown/warfare/blue/soldier
 	title = "Corvani Soldier"
@@ -78,7 +89,7 @@
 	department_flag = SERFS
 	faction = "Station"
 	total_positions = 9999
-	spawn_positions = 10
+	spawn_positions = 5
 	allowed_races = list("Humen",
 	"Humen",
 	"Elf",

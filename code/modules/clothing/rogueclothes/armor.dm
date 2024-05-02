@@ -162,6 +162,10 @@
 	smeltresult = /obj/item/ingot/steel
 	armor_class = ARMOR_CLASS_MEDIUM
 
+/obj/item/clothing/suit/roguetown/armor/heartfelt/lord/corvan
+	icon_state = "corvan"
+	item_state = "corvan"
+
 /obj/item/clothing/suit/roguetown/armor/heartfelt/hand
 	slot_flags = ITEM_SLOT_ARMOR
 	name = "coat of armor"

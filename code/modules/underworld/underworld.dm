@@ -7,6 +7,11 @@
 		if("Yes")
 			if(istype(mob, /mob/living/carbon/human))
 				var/mob/living/carbon/human/D = mob
+				D.returntolobby()
+			return
+			/*
+			if(istype(mob, /mob/living/carbon/human))
+				var/mob/living/carbon/human/D = mob
 				if(D.buried && D.funeral)
 					D.returntolobby()
 					return
@@ -17,6 +22,7 @@
 				O.PATRON = prefs.selected_patron
 				SSdroning.area_entered(get_area(O), O.client)
 			verbs -= /client/proc/descend
+			*/
 		if("No")
 			usr << "You have second thoughts."	
 

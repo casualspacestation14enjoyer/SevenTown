@@ -234,6 +234,25 @@
 	//dropshrink = 0.75
 	dynamic_hair_suffix = null
 
+/obj/item/clothing/head/roguetown/crown/redcrown
+	name = "crown of Heartfelt"
+	icon_state = "vcrown"
+	item_state = "vcrown"
+	body_parts_covered = null
+	slot_flags = ITEM_SLOT_HEAD
+	dynamic_hair_suffix = null
+	sellprice = 1000
+	resistance_flags = FIRE_PROOF
+
+/obj/item/clothing/head/roguetown/crown/blucrown
+	name = "crown of Corvana"
+	icon_state = "bcrown"
+	item_state = "bcrown"
+	body_parts_covered = null
+	slot_flags = ITEM_SLOT_HEAD
+	dynamic_hair_suffix = null
+	sellprice = 1000
+	resistance_flags = FIRE_PROOF
 
 /obj/item/clothing/head/roguetown/crown/serpcrown
 	name = "crown of rockhill"
