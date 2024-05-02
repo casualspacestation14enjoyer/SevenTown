@@ -540,14 +540,6 @@
 /datum/reagent/medicine/morphine/on_mob_life(mob/living/carbon/M)
 	if(current_cycle >= 5)
 		SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "numb", /datum/mood_event/narcotic_medium, name)
-	switch(current_cycle)
-		if(11)
-			to_chat(M, "<span class='warning'>I start to feel tired...</span>" )
-		if(12 to 24)
-			M.drowsyness += 1
-		if(24 to INFINITY)
-			M.Sleeping(40, 0)
-			. = 1
 	..()
 
 /datum/reagent/medicine/morphine/overdose_process(mob/living/M)
