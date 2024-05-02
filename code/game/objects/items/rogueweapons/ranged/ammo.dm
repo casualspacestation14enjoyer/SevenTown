@@ -56,7 +56,7 @@
 
 /obj/projectile/bullet/bullet
 	name = "lead ball"
-	damage = 215
+	damage = 98
 	damage_type = BRUTE
 	icon = 'icons/roguetown/weapons/ammo.dmi'
 	icon_state = "musketball_proj"

@@ -4,7 +4,7 @@
 	icon = 'icons/roguetown/weapons/32.dmi'
 	icon_state = "pistol"
 	item_state = "matchlock"
-	possible_item_intents = list(/datum/intent/shoot/matchlock, /datum/intent/arc, INTENT_GENERIC)
+	possible_item_intents = list(/datum/intent/shoot/matchlock, INTENT_GENERIC)
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/matchlock
 	fire_sound = 'sound/combat/Ranged/firebow-shot-01.ogg'
 	slot_flags = ITEM_SLOT_HIP
