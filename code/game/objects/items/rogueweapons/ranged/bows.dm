@@ -101,8 +101,8 @@
 	start_empty = TRUE
 
 /datum/intent/shoot/matchlock
-	chargetime = 1.5
-	chargedrain = 2.3
+	chargetime = 3
+	chargedrain = 4
 	charging_slowdown = 4
 
 /datum/intent/shoot/matchlock/can_charge()

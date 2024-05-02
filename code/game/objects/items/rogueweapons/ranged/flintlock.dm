@@ -9,8 +9,8 @@
 	fire_sound = 'sound/combat/Ranged/firebow-shot-01.ogg'
 	slot_flags = ITEM_SLOT_HIP
 	w_class = WEIGHT_CLASS_BULKY
-	randomspread = 0
-	spread = 0
+	randomspread = 1
+	spread = 3
 	can_parry = TRUE
 	pin = /obj/item/firing_pin
 	force = 25
