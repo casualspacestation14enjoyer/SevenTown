@@ -20,6 +20,13 @@
 /obj/structure/bed/rogue/shit,
 /turf/closed/wall/mineral/rogue/tent,
 /area/rogue)
+"bJ" = (
+/obj/machinery/light/rogue/torchholder{
+	icon_state = "torchwall1";
+	dir = 8
+	},
+/turf/open/floor/rogue/cobblerock,
+/area/rogue)
 "bT" = (
 /obj/structure/rack/rogue,
 /turf/open/floor/rogue/blocks,
@@ -34,6 +41,13 @@
 "dd" = (
 /obj/structure/mineral_door/wood/deadbolt,
 /turf/closed/wall/mineral/rogue/wood,
+/area/rogue)
+"dE" = (
+/obj/machinery/light/rogue/torchholder{
+	icon_state = "torchwall1";
+	dir = 4
+	},
+/turf/open/floor/rogue/grass,
 /area/rogue)
 "ea" = (
 /obj/structure/closet/crate/roguecloset,
@@ -78,6 +92,13 @@
 "fM" = (
 /obj/structure/mineral_door/wood/deadbolt,
 /turf/open/floor/rogue/blocks,
+/area/rogue)
+"fQ" = (
+/obj/machinery/light/rogue/torchholder{
+	icon_state = "torchwall1";
+	dir = 8
+	},
+/turf/open/floor/rogue/cobble,
 /area/rogue)
 "fW" = (
 /obj/structure/roguetent,
@@ -157,6 +178,13 @@
 /obj/structure/flora/roguetree/stump/log,
 /turf/open/floor/rogue/grass,
 /area/rogue)
+"je" = (
+/obj/machinery/light/rogue/torchholder{
+	icon_state = "torchwall1";
+	dir = 4
+	},
+/turf/open/floor/rogue/cobble,
+/area/rogue)
 "jr" = (
 /obj/structure/fluff/railing/fence{
 	icon_state = "fence";
@@ -198,7 +226,13 @@
 /area/rogue)
 "ld" = (
 /obj/structure/stairs,
-/turf,
+/turf/open/floor/rogue/ruinedwood/turned,
+/area/rogue)
+"lg" = (
+/obj/machinery/light/rogue/torchholder{
+	pixel_y = 32
+	},
+/turf/open/transparent/openspace,
 /area/rogue)
 "lh" = (
 /obj/structure/fermenting_barrel,
@@ -237,6 +271,12 @@
 	dir = 4
 	},
 /turf/open/floor/rogue/grass,
+/area/rogue)
+"mr" = (
+/obj/machinery/light/rogue/torchholder{
+	pixel_y = 32
+	},
+/turf/open/floor/rogue/carpet,
 /area/rogue)
 "mC" = (
 /turf/open/floor/rogue/dirt,
@@ -384,6 +424,21 @@
 /obj/machinery/light/rogue/firebowl/standing,
 /turf/open/floor/rogue/ruinedwood/turned,
 /area/rogue)
+"rL" = (
+/obj/structure/closet/crate/chest,
+/obj/machinery/light/rogue/torchholder{
+	icon_state = "torchwall1";
+	dir = 8
+	},
+/turf/open/floor/rogue/dirt/road,
+/area/rogue)
+"rU" = (
+/obj/machinery/light/rogue/torchholder{
+	icon_state = "torchwall1";
+	dir = 8
+	},
+/turf/open/floor/rogue/ruinedwood/turned,
+/area/rogue)
 "se" = (
 /obj/structure/fluff/statue/knightalt,
 /turf/open/floor/rogue/carpet,
@@ -506,6 +561,13 @@
 /obj/effect/landmark/start/redsoldier,
 /turf/open/floor/rogue/carpet,
 /area/rogue)
+"yg" = (
+/obj/machinery/light/rogue/torchholder{
+	icon_state = "torchwall1";
+	dir = 4
+	},
+/turf/open/floor/rogue/cobblerock,
+/area/rogue)
 "yG" = (
 /obj/structure/fluff/statue/gargoyle,
 /turf/open/floor/rogue/grass,
@@ -534,6 +596,14 @@
 "Ae" = (
 /obj/structure/fluff/statue/gargoyle,
 /turf/open/floor/rogue/cobble,
+/area/rogue)
+"Ag" = (
+/obj/machinery/light/rogue/firebowl/standing,
+/turf/open/floor/rogue/grass,
+/area/rogue)
+"Ah" = (
+/obj/machinery/light/rogue/chand,
+/turf/open/transparent/openspace,
 /area/rogue)
 "AD" = (
 /obj/structure/closet/crate/roguecloset,
@@ -567,9 +637,7 @@
 /area/rogue)
 "BN" = (
 /obj/structure/stairs,
-/turf/open/floor/rogue/rooftop{
-	dir = 1
-	},
+/turf/open/floor/rogue/ruinedwood,
 /area/rogue)
 "Cf" = (
 /obj/effect/landmark/start/bluesoldier,
@@ -684,6 +752,13 @@
 	},
 /turf/open/floor/rogue/blocks/stonered/tiny,
 /area/rogue)
+"Gj" = (
+/obj/machinery/light/rogue/torchholder{
+	icon_state = "torchwall1";
+	dir = 4
+	},
+/turf/open/floor/rogue/woodturned,
+/area/rogue)
 "Gk" = (
 /obj/structure/closet/crate/chest,
 /turf/open/floor/rogue/cobble,
@@ -770,6 +845,13 @@
 	},
 /turf/open/floor/rogue/grass,
 /area/rogue)
+"Kl" = (
+/obj/machinery/light/rogue/torchholder{
+	icon_state = "torchwall1";
+	dir = 8
+	},
+/turf/open/floor/rogue/grass,
+/area/rogue)
 "Kx" = (
 /obj/structure/flora/roguegrass/bush,
 /obj/structure/fluff/railing/fence{
@@ -777,6 +859,13 @@
 	dir = 1
 	},
 /turf/open/floor/rogue/grass,
+/area/rogue)
+"Kz" = (
+/obj/machinery/light/rogue/torchholder{
+	icon_state = "torchwall1";
+	dir = 8
+	},
+/turf/open/floor/rogue/dirt/road,
 /area/rogue)
 "KA" = (
 /obj/structure/bookcase,
@@ -859,12 +948,18 @@
 /turf/open/water/bath,
 /area/rogue)
 "Mb" = (
-/obj/structure/stairs,
-/turf/open/transparent/openspace,
+/obj/machinery/light/rogue/torchholder{
+	pixel_y = 32
+	},
+/turf/open/floor/rogue/woodturned,
 /area/rogue)
 "ME" = (
 /obj/structure/closet/crate/roguecloset,
 /obj/structure/fluff/walldeco/wantedposter/r,
+/obj/machinery/light/rogue/torchholder{
+	icon_state = "torchwall1";
+	dir = 8
+	},
 /turf/open/floor/rogue/woodturned,
 /area/rogue)
 "Ng" = (
@@ -915,6 +1010,13 @@
 /mob/living/simple_animal/hostile/retaliate/rogue/saigabuck/tame/saddled,
 /turf/open/floor/rogue/grass,
 /area/rogue)
+"Oj" = (
+/obj/machinery/light/rogue/torchholder{
+	icon_state = "torchwall1";
+	dir = 8
+	},
+/turf/open/floor/rogue/blocks,
+/area/rogue)
 "Os" = (
 /obj/machinery/light/rogue/firebowl,
 /turf/open/floor/rogue/cobblerock,
@@ -932,6 +1034,13 @@
 /obj/structure/mineral_door/wood,
 /turf/closed/wall/mineral/rogue/wood,
 /area/rogue)
+"OZ" = (
+/obj/machinery/light/rogue/torchholder{
+	icon_state = "torchwall1";
+	dir = 4
+	},
+/turf/open/floor/rogue/ruinedwood/turned,
+/area/rogue)
 "Px" = (
 /obj/effect/landmark/start/bluesoldierlate,
 /turf/open/floor/rogue/grass,
@@ -942,6 +1051,13 @@
 /area/rogue)
 "PG" = (
 /turf/open/floor/rogue/twig,
+/area/rogue)
+"PR" = (
+/obj/machinery/light/rogue/torchholder{
+	icon_state = "torchwall1";
+	dir = 4
+	},
+/turf/open/floor/rogue/blocks,
 /area/rogue)
 "PV" = (
 /obj/structure/table/wood,
@@ -1064,6 +1180,13 @@
 "UY" = (
 /turf/open/floor/rogue/blocks/stonered,
 /area/rogue)
+"VK" = (
+/obj/structure/table/wood,
+/obj/machinery/light/rogue/torchholder{
+	pixel_y = 32
+	},
+/turf/open/floor/rogue/ruinedwood/turned,
+/area/rogue)
 "VM" = (
 /obj/item/roguebin,
 /turf/open/floor/rogue/dirt/road,
@@ -1123,6 +1246,13 @@
 /area/rogue)
 "XH" = (
 /turf/open/floor/rogue/concrete,
+/area/rogue)
+"XZ" = (
+/obj/machinery/light/rogue/torchholder{
+	icon_state = "torchwall1";
+	dir = 8
+	},
+/turf/open/floor/rogue/woodturned,
 /area/rogue)
 "Yf" = (
 /obj/structure/flora/roguegrass/water/reeds,
@@ -3861,8 +3991,8 @@ gF
 gF
 gF
 KP
+KP
 pr
-Sa
 Sa
 ex
 KP
@@ -4290,7 +4420,7 @@ cv
 cv
 Sa
 gF
-cv
+Oh
 cv
 cv
 cv
@@ -4593,24 +4723,24 @@ cv
 qH
 cv
 cv
+yg
 hi
 hi
 hi
 hi
-hi
 Zt
 Zt
 Zt
 Zt
 Zt
 Zt
+PR
 Zt
 Zt
 Zt
 Zt
 Zt
-Zt
-Zt
+PR
 Zt
 Zt
 Zt
@@ -4626,7 +4756,7 @@ hi
 SM
 SM
 hi
-hi
+yg
 hi
 hi
 Sa
@@ -4671,7 +4801,7 @@ Sa
 Sa
 Sa
 cv
-cv
+Oh
 cv
 cv
 cv
@@ -4741,7 +4871,7 @@ cv
 cv
 cv
 cv
-cv
+Oh
 cv
 cv
 cv
@@ -4865,12 +4995,12 @@ HA
 KP
 KP
 KP
+Mb
 tb
 tb
-tb
-tb
+Gj
 XF
-cv
+Ag
 cv
 cv
 cv
@@ -4878,7 +5008,7 @@ cv
 cv
 zr
 zr
-zr
+fQ
 zr
 zr
 zr
@@ -4897,40 +5027,40 @@ cv
 Sa
 Sa
 Sa
+bJ
+hi
+hi
+hi
+hi
+Zt
+Zt
+Zt
+Zt
+Zt
+Zt
+Oj
+Zt
+Zt
+Zt
+Zt
+Zt
+Oj
+Zt
+Zt
+Zt
+Zt
+Zt
+Zt
+Zt
 hi
 hi
 hi
 hi
 hi
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
-Zt
 hi
 hi
 hi
-hi
-hi
-hi
-hi
-hi
-hi
+bJ
 hi
 hi
 Sa
@@ -5110,7 +5240,7 @@ Sa
 Sa
 Sa
 Sa
-Sa
+Kz
 cv
 cv
 cv
@@ -5284,7 +5414,7 @@ Sa
 Sa
 Sa
 Sa
-cv
+Oh
 cv
 cv
 cv
@@ -5473,12 +5603,12 @@ HA
 rh
 KP
 KP
+Mb
 tb
 tb
-tb
-tb
+XZ
 XF
-cv
+Ag
 cv
 cv
 cv
@@ -5486,7 +5616,7 @@ cv
 cv
 zr
 zr
-zr
+je
 zr
 zr
 zr
@@ -5650,7 +5780,7 @@ zr
 zr
 cv
 cv
-cv
+Oh
 cv
 cv
 cv
@@ -5875,7 +6005,7 @@ Zt
 UF
 cv
 cv
-cv
+Kl
 cv
 cv
 cv
@@ -6787,7 +6917,7 @@ Zt
 UF
 io
 cv
-cv
+dE
 cv
 Sa
 Sa
@@ -7461,7 +7591,7 @@ cv
 KP
 tb
 fA
-tb
+Gj
 fA
 ou
 KP
@@ -7559,7 +7689,7 @@ Sa
 IX
 zM
 WX
-PG
+Xf
 PG
 zM
 IX
@@ -9079,7 +9209,7 @@ Sa
 IX
 PG
 PG
-ex
+rL
 ex
 ex
 IX
@@ -12982,8 +13112,8 @@ Xu
 Xu
 Xu
 op
-Mb
-tb
+Ud
+Xu
 tb
 tb
 KP
@@ -13821,17 +13951,17 @@ Xu
 Xu
 Xu
 XF
-fz
-fz
+rF
+OZ
 BI
 BI
+OZ
 fz
-fz
-fz
+rF
 KP
 Sv
 Sv
-Sv
+ey
 KP
 KP
 KP
@@ -13986,7 +14116,7 @@ Sv
 Sv
 KP
 KP
-Xu
+lg
 Xu
 KP
 BI
@@ -14125,7 +14255,7 @@ Xu
 Xu
 Xu
 KP
-BI
+mr
 BI
 xZ
 xZ
@@ -14133,11 +14263,11 @@ xZ
 BI
 KA
 KP
-nF
+VK
 fz
 fz
 ld
-ld
+Xu
 Xu
 Xu
 ef
@@ -14290,7 +14420,7 @@ fz
 fz
 KP
 KP
-Xu
+Ah
 Xu
 KP
 BI
@@ -14429,7 +14559,7 @@ Xu
 Xu
 Xu
 KP
-BI
+mr
 BI
 xZ
 xZ
@@ -14437,11 +14567,11 @@ xZ
 BI
 KA
 KP
-nF
+VK
 fz
 fz
 ld
-ld
+Xu
 Xu
 Xu
 ef
@@ -14594,7 +14724,7 @@ Sv
 Sv
 KP
 KP
-Xu
+lg
 Xu
 KP
 BI
@@ -14733,17 +14863,17 @@ Xu
 Xu
 Xu
 XF
+rF
+rU
 fz
 fz
-fz
-fz
-fz
+rU
 BI
 BI
 KP
 Sv
 Sv
-Sv
+ey
 KP
 KP
 KP
@@ -14891,7 +15021,7 @@ KP
 KP
 XF
 BI
-BI
+kO
 KP
 KP
 KP
