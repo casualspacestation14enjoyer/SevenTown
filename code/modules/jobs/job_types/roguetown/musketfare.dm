@@ -29,6 +29,7 @@
 
 /datum/job/roguetown/warfare/red/captain
 	title = "Heartfelt Lord"
+	tutorial = "You're the Lord of Heartfelt, the filthy rebels have gotten at your final fortress. Your residence, if they get your crown it's over. Lead your men, valiantly."
 	selection_color = JCOLOR_CAPR
 	flag = REDCAPTAIN
 	outfit = /datum/outfit/job/roguetown/captain/red
@@ -49,6 +50,7 @@
 
 /datum/job/roguetown/warfare/red/soldier
 	title = "Heartfelt Soldier"
+	tutorial = "You're a rifleman, shoot wisely and accurately. Bullets are expensive."
 	selection_color = JCOLOR_RED
 	flag = SOLDIER
 	outfit = /datum/outfit/job/roguetown/soldier/red
@@ -63,6 +65,7 @@
 
 /datum/job/roguetown/warfare/blue/captain
 	title = "Corvani Captain"
+	tutorial = "You're the leader of the rebel charge agaisnt the tyranical regime. Lead your men onwards to a better Heartfelt. Glory to the Corvani. Glory to the stars!"
 	selection_color = JCOLOR_CAPB
 	flag = BLUCAPTAIN
 	outfit = /datum/outfit/job/roguetown/captain/blue
@@ -83,6 +86,7 @@
 
 /datum/job/roguetown/warfare/blue/soldier
 	title = "Corvani Soldier"
+	tutorial = "You're a rifleman, shoot wisely and accurately. Bullets are expensive."
 	selection_color = JCOLOR_BLU
 	flag = SOLDIER
 	outfit = /datum/outfit/job/roguetown/soldier/blue
