@@ -65,7 +65,9 @@ GLOBAL_LIST_INIT(noble_positions, list(
 	"Prince",
 	"Sheriff",
 	"Steward",
-	"Court Magician"
+	"Court Magician",
+	"Corvani Captain",
+	"Heartfelt Lord"
 	))
 
 GLOBAL_LIST_INIT(garrison_positions, list(
@@ -74,7 +76,9 @@ GLOBAL_LIST_INIT(garrison_positions, list(
 	"Veteran",
 	"Dungeoneer",
 	"Gatemaster",
-	"Village Elder"
+	"Village Elder",
+	"Corvani Soldier",
+	"Heartfelt Soldier"
 	))
 
 GLOBAL_LIST_INIT(church_positions, list(
