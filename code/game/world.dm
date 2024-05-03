@@ -322,18 +322,15 @@ GLOBAL_VAR(restart_counter)
 	..()
 
 /world/proc/update_status()
-	var/s = ""
-	s += "<center><a href=\"https://discord.gg/bx9c7ha5Qk\">"
 #ifdef MATURESERVER
 	s += "<big><b>SIEGETOWN</b></big></a><br>"
-	s += "<b>Musket based warfare.</b></center><br>"
+	s += "<b>Musket based warfare, using the Roguetown (BLACKSTONE) code as a base.</b></center><br>"
 #else
 	s += "<big><b>SIEGETOWN</b></big></a><br>"
 	s += "<b>Musket based warfare.</b></center><br>"
 #endif
-//	s += "<img src=\"https://i.imgur.com/shj547T.jpg\"></a></center>"
+s += "<img src=\"https://i.imgur.com/shj547T.jpg\"></a></center>"
 
-//	s += "! <b>UPDATE 4.4</b> 4/22/2022<br><br>"
 #ifdef MATURESERVER
 	s += "\["
 	if(SSticker.current_state <= GAME_STATE_PREGAME)
