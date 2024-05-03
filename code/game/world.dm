@@ -329,7 +329,7 @@ GLOBAL_VAR(restart_counter)
 	s += "<big><b>SIEGETOWN</b></big></a><br>"
 	s += "<b>Musket based warfare.</b></center><br>"
 #endif
-s += "<img src=\"https://i.imgur.com/shj547T.jpg\"></a></center>"
+//s += "<img src=\"https://i.imgur.com/shj547T.jpg\"></a></center>"
 
 #ifdef MATURESERVER
 	s += "\["
