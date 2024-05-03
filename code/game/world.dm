@@ -322,6 +322,7 @@ GLOBAL_VAR(restart_counter)
 	..()
 
 /world/proc/update_status()
+	var/s = ""
 #ifdef MATURESERVER
 	s += "<big><b>SIEGETOWN</b></big></a><br>"
 	s += "<b>Musket based warfare, using the Roguetown (BLACKSTONE) code as a base.</b></center><br>"
